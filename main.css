@@ -79,19 +79,20 @@ body {
 .content{
 	
 	width: 920px;
-	height: 750px;
+	height: 1200px;
 	padding: 0 20px;
 	border:1px solid black;
 	background-color: #292929;
 }
-.content .menuleft{
+
+.menuleft{
 	float: left;
 	width: 188px;
 	padding: 10px;
 	background-color: #171716;
 	border: 1px solid #242421;
 }
-.content .menuright{
+.menuright{
 	float: right;
 	width: 670px;
 }
@@ -161,6 +162,9 @@ body {
 	padding-bottom: 5px;
     text-align: center;
 }
+.book-info a:hover{
+	color: yellow;
+}
 .book-info a{
 	text-decoration: none;
 	color: white;
@@ -182,3 +186,44 @@ body {
 	padding-left: 150px;
 }
 
+
+/* submenu*/
+.content1{
+	
+	width: 920px;
+	height: 1550px;
+	padding: 0 20px;
+	border:1px solid black;
+	background-color: #292929;
+}
+.btn-move{
+	margin-top: 30px;
+}
+.btn-move ul{
+	list-style-type: none;
+}
+.btn-move ul li{
+	display: inline-block;
+}
+.btn-move ul li a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #b8b800;
+	font-weight: bold;
+	padding-right: 30px;
+	font-size: 18px;
+}
+.btn-move ul li a:hover{
+	color: yellow;
+}
+
+/* tieu thuyet/truyen ngăn/truyen trinh tham */
+
+.content2{
+	
+	width: 920px;
+	height: 750px;
+	padding: 0 20px;
+	border:1px solid black;
+	background-color: #292929;
+}
