@@ -32,3 +32,153 @@ body {
 .menutop ul li a:hover{
 	color:yellow;
 }
+.head-image{
+	width: 100%;
+	height: 285px;
+	float: left;
+	background: url(images/header_bg_1.jpg);
+}
+.offers{
+	width: 180px;
+	height: 100px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 490px;
+
+	background-color:#00352d;
+}
+.offers h4 a{
+	margin-left: 60px;
+	text-decoration: none;
+	color: white;
+	margin-bottom: 20px;
+}
+.offers h4 a:hover{
+	color: yellow;
+}
+.newbooks{
+	width: 240px;
+	height:100px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.newbooks li{
+	font-size: 14px;
+}
+.newbooks h4 a{
+	margin-left: 85px;
+	text-decoration: none;
+	color: white;
+	margin-bottom: 20px;
+}
+.newbooks h4 a:hover{
+	color: yellow;
+}
+.content{
+	
+	width: 920px;
+	height: 750px;
+	padding: 0 20px;
+	border:1px solid black;
+	background-color: #292929;
+}
+.content .menuleft{
+	float: left;
+	width: 188px;
+	padding: 10px;
+	background-color: #171716;
+	border: 1px solid #242421;
+}
+.content .menuright{
+	float: right;
+	width: 670px;
+}
+.menuleft .danh-muc h1{
+	font-size: 18px;
+	color: #cbc750;
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px dotted #cbc750;
+}
+.menuleft .danh-muc ul li{
+	list-style-type: none;
+}
+.menuleft .danh-muc ul li a{
+	font-weight: normal;
+	text-decoration: none;
+	color: #969547;
+	font-size: 16;
+}
+.danh-muc ul li a:hover{
+	color: yellow;
+}
+
+.menuright .books{
+	float: left;
+	width: 303px;
+	height: 360px;
+	padding: 10px;
+	margin-right: 10px;
+	border: 1px solid #333;
+}
+.menuright h1{
+	padding: 10px;
+	margin: 0 0 20px 0;
+	font-size: 15px;
+	color: #cbc750;
+	background: url(images/h1_bg.jpg);
+}
+.menuright .book-info h3{
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-size: 18px;
+	color: #85391f;
+}
+.menuright p{
+	text-align: justify;
+	padding: 0 0 8px 0;
+}
+.menuright img{
+	float: left;
+	width: 190px;
+	height: 280px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+.book-info p{
+	margin-bottom: 15px;
+}
+.book-info .buy_now_button{
+	display: inline-block;
+    background: #85391f;
+	border-radius: 40px;
+	width: 90px;
+	height: 20px;
+	margin-top: 10px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+    text-align: center;
+}
+.book-info a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+.footer{
+	width: 923px;
+	height: 90px;
+	background:  #171716;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer-col{
+	display: flex;
+	float: left;
+    align-items: center;
+    flex-wrap: wrap;
+	justify-content: space-around;
+	padding-left: 150px;
+}
+
